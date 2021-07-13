@@ -1,4 +1,4 @@
-# 도커 쿠버네티스 워크샵
+# 쿠버네티스 CI/CD 워크샵
 
 ## 실습환경
 
@@ -8,6 +8,7 @@
 - Public IP 권장 (EC2 / GCE / Azure VM)
 
 ## 사전지식
+
 - 리눅스 기본 지식이 필요합니다. (ssh, vim, apt, curl 등)
 - 간단한 프로그래밍 지식을 요구합니다. 언어는 무관하지만 이 책에서는 파이썬을 주로 다룹니다. 파이썬을 모르시더라도 전반적인 프로그래밍 지식만으로도 충분히 이해할 수 있습니다.
 - 간단한 클라우드 지식이 필요합니다.
@@ -45,27 +46,33 @@
 
 **![참고](02.png) 참고** Remote host와 User는 독자별 준비한 서버 정보를 입력합니다.
 
+## 실습내용
 
-## 도커
+### 도커
 
 1. [도커 실행](docker/01.md)
 2. [도커 레지스트리](docker/02.md)
 3. [Dockerfile 작성 및 빌드](docker/03.md)
 4. [도커실행 고급](docker/04.md)
-5. [docker-compose](docker/05.md)
 
-## 쿠버네티스
+### 쿠버네티스
 
 1. [명령도구 마스터](k8s/01.md)
 2. [Pod 살펴보기](k8s/02.md)
 3. [네트워킹](k8s/03.md)
 4. [쿠버네티스 리소스](k8s/04.md)
-5. [helm 패키지 매니저](k8s/05.md) (optional)
+5. [helm 패키지 매니저](k8s/05.md)
 
-## 프로젝트 (Optional)
+### Github Action - CI
 
-1. [Wordpress 서비스 만들기](project/01.md)
-2. [ML 모델 학습 시키기](project/02.md)
+1. [Github Action 사용법](cicd/01.md)
+2. [Github Action을 이용한 CI](cicd/02.md)
+
+### GitOps - CD
+
+1. [FluxCD를 이용한 배포](cicd/03.md)
+1. [ArgoCD를 이용한 배포](cicd/04.md)
+
 
 ## 참고자료
 
