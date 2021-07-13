@@ -70,8 +70,8 @@
 
 ### GitOps - CD
 
-1. [FluxCD를 이용한 배포](cicd/03.md)
-1. [ArgoCD를 이용한 배포](cicd/04.md)
+1. [ArgoCD를 이용한 배포](cicd/03.md)
+2. [개발 클러스터 배포](cicd/04.md)
 
 
 ## 참고자료
